@@ -1,34 +1,16 @@
 # Code of Conduct
 
 ## Our Pledge
-
-We pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We pledge to make participation in our community a harassment-free experience.
 
 ## Our Standards
-
-### Positive Behavior
 - Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
+- Being respectful of differing viewpoints
 - Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Showing empathy towards other community members
-
-### Unacceptable Behavior
-- The use of sexualized language or imagery
-- Trolling, insulting/derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information without explicit permission
-- Other conduct which could reasonably be considered inappropriate
 
 ## Enforcement
-
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project maintainers at L8ab@proton.me. All complaints will be reviewed and investigated promptly and fairly.
-
-## Attribution
-
-This Code of Conduct is adapted from the Contributor Covenant, version 2.1.
+Instances of abusive behavior may be reported to L8ab@proton.me
 
 ---
 
-**POWERED BY L8AB** ⚡
-
+**POWERED BY L8AB SYSTEMS** ⚡
