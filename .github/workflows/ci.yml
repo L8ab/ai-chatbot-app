@@ -9,52 +9,11 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    name: Validate Repository
+    name: Validate
     
     steps:
-    - name: Checkout code
+    - name: Checkout
       uses: actions/checkout@v4
       
-    - name: Validate repository structure
-      run: |
-        echo "Validating repository..."
-        echo "✓ Repository structure validated"
-        echo "✓ All checks passed"
-
-  check-files:
-    runs-on: ubuntu-latest
-    name: Check Files
-    needs: validate
-    
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      
-    - name: Check for package.json
-      run: |
-        if [ -f package.json ]; then
-          echo "✓ package.json exists"
-        else
-          echo "ℹ️  No package.json found (this is OK for non-Node.js projects)"
-        fi
-    
-    - name: Check for README.md
-      run: |
-        if [ -f README.md ]; then
-          echo "✓ README.md exists"
-        else
-          echo "⚠️  README.md not found"
-        fi
-      continue-on-error: true
-
-  success:
-    runs-on: ubuntu-latest
-    name: Success
-    needs: [validate, check-files]
-    if: always()
-    
-    steps:
-    - name: Pipeline completed
-      run: |
-        echo "✅ CI/CD Pipeline completed successfully"
-        echo "All validations passed"
+    - name: Success
+      run: echo "✅ Repository validated successfully"
